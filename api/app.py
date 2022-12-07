@@ -5,7 +5,7 @@ from flask import jsonify, render_template, request
 models = model_list.models
 
 app = flask.Flask(__name__)
-app.config["debug"] = True
+app.config["debug"] = False
 
 @app.route("/")
 def home():
